@@ -4,11 +4,23 @@ body {
   
   h1 {
     color: rgb(245, 42, 1);
+
+  }
+  .center {
     text-align: center;
   }
-  
-  p {
-    color: rgb(201, 255, 8);
+.fonte-verde  {
+  color:rgb(9, 254, 99)
+}
+
+  #para {
+    color: rgb(255, 255, 0);
     font-family: verdana;
     font-size: 20px;
-  }
+   }
+   
+   p {
+    color: rgb(255, 255, 0);
+    font-family: verdana;
+    font-size: 20px;
+   }
