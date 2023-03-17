@@ -1,9 +1,10 @@
 body {
     /*background-color: rgba(255, 238, 0, 0.728);*/
     background-image: url("img/pokemon.jpg");
-     background-repeat: no-repeat;
+    font-family: 'Pacifico', cursive;
+    background-repeat: no-repeat;
      border: 10px groove hsl(286, 100%, 50%);
-     border-width: 5px 20px
+     border-width: 5px 20px;
      border-top-style: dotted;
      border-right-style: solid;
      border-bottom-style: dotted;
@@ -11,13 +12,21 @@ body {
      border-bottom: 6px solid red;
      border: 2px solid red;
      border-radius: 5px;
+     text-decoration-line: overline;
+     text-decoration-color: green;
+     text-decoration-style: solid;
+     text-decoration-thickness: auto;
+     text-transform: uppercase;
+     word-spacing: 10px;
+     text-shadow: 2px 2px;
     }
+    
   
   h1 {
-    color: hsl(240, 100%, 50%);
-    background-color: hsl(124, 100%, 51%);
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 0%);
     border: 10px groove hsl(249, 100%, 52%);
-    border-width: 5px 20px
+    border-width: 5px 20px;
     border-top-style: dotted;
     border-right-style: solid;
     border-bottom-style: dotted;
@@ -25,6 +34,13 @@ body {
     border-bottom: 6px solid red;
     border: 2px solid red;
     border-radius: 5px;
+    text-decoration-line: line-through;
+    text-decoration-color: purple;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    text-transform: uppercase;
+    line-height: 0.8;
+    text-shadow: 2px 2px red;
   }
    /*classes*/
  
@@ -40,8 +56,8 @@ body {
     font-family: verdana;
     font-size: 20px;
     border: 10px groove hsl(34, 100%, 50%);
-    background-color: hsl(230, 100%, 51%);
-    border-width: 5px 20px
+    background-color: hsl(0, 0%, 100%);
+    border-width: 5px 20px;
     border-top-style: dotted;
     border-right-style: solid;
     border-bottom-style: dotted;
@@ -49,15 +65,23 @@ body {
     border-bottom: 6px solid red;
     border: 2px solid red;
     border-radius: 5px;
+    text-align: right;
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 5px red;
   }
-  
+ 
    p {
     color: hsl(61, 100%, 50%);
     font-family: verdana;
     font-size: 20px;
     border: 10px groove hsl(60, 100%, 52%);
-    background-color: hsl(249, 100%, 51%);
-    border-width: 5px 20px
+    background-color: hwb(0 100% 0%);
+    border-width: 5px 20px;
     border-top-style: dotted;
     border-right-style: solid;
     border-bottom-style: dotted;
@@ -66,4 +90,15 @@ body {
     border-bottom: 6px solid red;
     border: 2px solid red;
     border-radius: 5px;
+    outline-style: solid;
+    outline-color: blue;
+    outline-width: 4px;
+    text-align: left;
+    text-decoration-line: overline underline;
+    text-decoration-color: blue;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    text-transform: uppercase;
+    text-indent: 50px;
+    text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
   }
